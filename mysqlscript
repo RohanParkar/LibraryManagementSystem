@@ -1,0 +1,15 @@
+create database library;
+
+use library;
+
+create table userbook( username varchar(50), bookname varchar(50));
+
+create table bookdb( name varchar(50), author varchar(50), qty int);
+
+
+
+create table register( name varchar(50), gender varchar(10),  mobile varchar(50),email varchar(50),usernme varchar(50),password varchar(50)) ;
+
+
+create table adminlogin( username varchar(10),password varchar(10));
+insert into adminlogin values('admin','admin');
